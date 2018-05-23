@@ -27,7 +27,7 @@
   }
   @media only screen and (max-width:$bp-smallest) {
     margin: 5rem;
-    .project__content  .project__content--overlay { 
+    .project__content  .project__content--overlay {
       opacity: 1;
     }
     .project__content  .project__content--details{
@@ -40,7 +40,7 @@
     box-shadow: 0 3rem 4rem rgba($color-black,.3);
     transform: translateY(-1.2rem);
 
-    .project__content  .project__content--overlay { 
+    .project__content  .project__content--overlay {
       opacity: 1;
     }
     .project__content  .project__content--details{
@@ -54,8 +54,6 @@
 &__container {
   height: 60%;
   padding:1.2rem;
-  
-
   }
 
 &__content {
@@ -132,7 +130,7 @@
 .fadeIn-left{
     left: 20%;
   }
-  
+
 .fadeIn-right{
     left: 80%;
   }

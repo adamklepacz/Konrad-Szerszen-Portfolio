@@ -8,18 +8,18 @@
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 120% 50vh, 50% 100%, 0 70%);
-  
+
   position: relative;
   background-color: $color-grey-light-1;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    @media only screen and (max-width:$bp-heading-technology) {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    }
+  @media only screen and (max-width:$bp-heading-technology) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  }
 
   &__logo-box {
     position: absolute;
@@ -39,7 +39,7 @@
       height: 8rem;
     }
   }
-  
+
   &__text-box {
     margin-bottom: 20rem;
     text-align: center;

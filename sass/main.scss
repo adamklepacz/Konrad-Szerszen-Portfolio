@@ -1,18 +1,24 @@
+// abstracts
 @import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
 
+
+// base
 @import "base/base";
 @import "base/animations";
 @import "base/typography";
 @import "base/utilities";
 
+// components
 @import "components/button";
 @import "components/description";
 @import "components/detail";
 @import "components/skills";
 
+
+// layout
 @import "layout/header";
 @import "layout/about";
 @import "layout/education";
@@ -20,22 +26,6 @@
 @import "layout/contact";
 @import "layout/footer";
 
+
+// pages
 @import "pages/home";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
